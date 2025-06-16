@@ -1,0 +1,83 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#calc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    border-radius: 6px;
+    background-color: #5eb5c2;
+}
+
+#display {
+    width: 320px;
+    height: 100px;
+    background-color: #e2ffff;
+    border-radius: 6px;
+    margin-top: 30px;
+    font-family: 'Fira Code';
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+#display-content {
+    padding: 24px;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+    margin-top: 22px;
+}
+
+.other-rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-style {
+    width: 75px;
+    height: 75px;
+    background-color: #e6f4f1;
+    margin: 4px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Code';
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#clear {
+    background-color: #842600;
+    color: #e6f4f1;
+}
+
+#multiply, #divide, #minus, #plus, #delete {
+    background-color: #00a9c9;
+    color: #e6f4f1;
+}
+
+.fira-code {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
