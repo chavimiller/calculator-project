@@ -28,6 +28,8 @@
 }
 
 #display-content {
+    display: flex;
+    overflow: hidden;
     padding: 24px;
     font-size: 38px;
     font-weight: 600;
