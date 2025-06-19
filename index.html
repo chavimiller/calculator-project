@@ -19,8 +19,8 @@
         </div>
         <div id="buttons-container">
           <div class="first-row">
-            <div id="clear" class="button-style ac-button">AC</div>
-            <div id="delete" class="button-style">DEL</div>
+            <div id="clear-button" class="button-style">AC</div>
+            <div id="delete-button" class="button-style">DEL</div>
           </div>
           <div class="other-rows">
             <div id="seven" class="button-style number">7</div>
@@ -41,75 +41,15 @@
             <div id="minus" class="button-style operator">-</div>
           </div>
           <div class="other-rows">
-            <div id="decimal" class="button-style">.</div>
+            <div id="decimal-button" class="button-style">.</div>
             <div id="zero" class="button-style number">0</div>
-            <div id="equals" class="button-style operator">=</div>
+            <div id="equals-button" class="button-style">=</div>
             <div id="plus" class="button-style operator">+</div>
           </div>
         </div>
       </div>
     </div>
-    <script>
-      myInputs = [25, 5];
 
-      // Operator Functions
-
-      function add(a, b) {
-        sum = a + b;
-        return sum;
-      }
-
-      function subtract(a, b) {
-        sum = a - b;
-        return sum;
-      }
-
-      function multiply(a, b) {
-        total = a * b;
-        return total;
-      }
-
-      function divide(a, b) {
-        total = a / b;
-        return total;
-      }
-
-      // Calculator functions
-
-      function operatorEvent(e) {
-        let op = e.key || e.target.innerText;
-      }
-
-      const numberBtns = document.querySelectorAll(".number");
-      numberBtns.forEach((button) =>
-        button.addEventListener("click", numberEvent)
-      );
-
-      function numberEvent(e) {
-        let numPressed = e.key || e.target.innerText;
-        console.log(e.target.innerText);
-        newDiv = document.createElement("div");
-        newDiv.textContent = parseInt(e.target.innerText);
-        displayContent.appendChild(newDiv);
-      }
-
-      const displayContent = document.querySelector("#display-content");
-
-      // Write function with assumption that
-      // operator button has been clicked
-      function operatorEvent(numOne) {}
-
-      const operatorBtns = document.querySelectorAll("#displayContent");
-      operatorBtns.forEach(
-        (button) => button.addEventListener("click"),
-        operatorEvent
-      );
-
-      const acButton = document.querySelector(".ac-button");
-
-      acButton.addEventListener("click", (event) => {
-        displayContent.innerHTML = "";
-      });
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
