@@ -23,7 +23,7 @@
     margin-top: 30px;
     font-family: 'Fira Code';
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: right;
 }
 
@@ -83,4 +83,21 @@
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+    #calc-container {
+        width: 300px;
+        height: 500px;
+    }
+
+    #display {
+        width: 260px;
+        height: 80px;
+    }
+
+    .button-style {
+        width: 60px;
+        height: 60px;
+    }
 }
