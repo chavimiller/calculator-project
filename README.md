@@ -1,18 +1,5 @@
-This project is a basic calculator built using HTML, CSS, and JavaScript. It performs basic operations on two inputs, and includes clear and delete buttons, as well as a decimal point input.
+# calculator-project
 
-Features included in this project:
+This project is a basic, responsive calculator built with HTML, CSS, and JavaScript. It performs basic arithmetic operations on two inputs and includes essential functionality such as clear (AC) and delete (DEL) buttons, as well as decimal point support for precise calculations. The app dynamically handles number and operator inputs through event listeners, updating the display in real time using DOM manipulation.
 
--Dynamic number and operator input using event listeners
--Clear (AC) and backspace (DEL) functions
--Decimal numbers and equals/evaluation button
--Real-time UI updates using DOM manipulation
--Basic error handling console messages for invalid inputs and tracking variables logic
-
-Concepts used in this project include:
-
--DOM manipulation with querySelector and addEventListener
--Event handling for button clicks
--Functions and control flow (if, switch) for processing logic
--String manipulation for display updates and digit deletion
--Number parsing with parseFloat() for calculations
--CSS Flexbox for layout, and custom styling with fonts and colors
+The project emphasizes clean logic and usability, featuring clear visual feedback and simple error handling. The interface is styled with CSS Flexbox, creating a layout that adapts neatly to different screen sizes for a responsive and user-friendly experience.
